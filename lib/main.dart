@@ -33,10 +33,6 @@ class AppHomeWidget extends StatelessWidget {
               title: Text("Cards", style: TextStyle(color: Colors.lightBlue)),
               icon: Icon(Icons.credit_card, color: Colors.lightBlue)),
           BottomNavigationBarItem(
-              title: Text("Transactions",
-                  style: TextStyle(color: Colors.lightBlue)),
-              icon: Icon(Icons.history, color: Colors.lightBlue)),
-          BottomNavigationBarItem(
               title:
                   Text("Settings", style: TextStyle(color: Colors.lightBlue)),
               icon: Icon(Icons.settings, color: Colors.lightBlue))
